@@ -16,7 +16,7 @@ for file_name in os.listdir(download_folder):
         # print(file_path)
         shutil.move(file_path,zipped_files)
 
-print('finished')
+print(f'finished, the file has been moved sucessfully to {zipped_files}')
 
 
 # print(os.listdir(zipped_files))
